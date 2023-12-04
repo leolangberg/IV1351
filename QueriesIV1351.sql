@@ -1,3 +1,5 @@
+--This is the script containing all the requested queries (saved as views), made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno
+
 --show the number of lessons given per month during a specified year
 CREATE VIEW lessons_per_month AS (
 		SELECT
