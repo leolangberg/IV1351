@@ -1,3 +1,4 @@
+--this is the script to create the database, made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno
 -- Database: iv1351
 
 CREATE TYPE genre         AS ENUM('Classical', 'Jazz', 'Pop', 'Rock');
