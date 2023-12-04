@@ -32,7 +32,7 @@ CREATE VIEW lessons_per_month AS (
 
 
 
---Show how many students there are with no sibling, with one sibling, with two siblings
+--Show how many students there are with no sibling, with one sibling, with two siblings, etc
 CREATE VIEW number_of_siblings AS (
 	WITH numbered_series AS (
 		SELECT 
