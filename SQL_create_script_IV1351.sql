@@ -1,4 +1,5 @@
--- Database: iv1351
+--This is the script to create the database 
+-- Database: iv1351 by Leo Långberg, Elias Gaghlasian, Ammar Alzeno
 
 CREATE TYPE genre         AS ENUM('Classical', 'Jazz', 'Pop', 'Rock');
 CREATE TYPE instrumentals AS ENUM('Piano', 'Guitar', 'Bass', 'Drums', 'Violin', 'Saxophone', 'Trumpet', 'Flute');
