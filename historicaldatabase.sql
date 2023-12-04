@@ -1,6 +1,6 @@
 --This is the script containing the historical database, made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno
 
---please note, since a way to move data between databases has not been created yet,
+--PLEASE NOTE, since a way to move data between databases has not been created yet,
 --to actually test this query then historical_data table should be created in the existing database 
 --the ENUMs below should already be in the main database and can therefore be skipped. 
 CREATE TYPE lesson_type   AS ENUM('individual', 'grouplesson', 'ensamble');
