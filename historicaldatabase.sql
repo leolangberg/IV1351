@@ -48,7 +48,7 @@ WITH data AS (
 	LEFT JOIN grouplesson ON lesson.lesson_id = grouplesson.lesson_id
 	LEFT JOIN individual ON lesson.lesson_id = individual.lesson_id
 	LEFT JOIN instrument ON (grouplesson.instrument_id = instrument.instrument_id AND price.lesson_type = 'grouplesson') 
-		 				 OR (individual.instrument_id = instrument.instrument_id AND price.lesson_type = 'individual')
+		 	     OR (individual.instrument_id = instrument.instrument_id AND price.lesson_type = 'individual')
 )
 INSERT INTO historical_data(lesson_type, genres, instrument, lesson_price, student_name, student_email)
 SELECT lesson_type, genres, instrument, lesson_price, student_name, student_email FROM data;
