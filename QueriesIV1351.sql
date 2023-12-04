@@ -51,7 +51,6 @@ CREATE VIEW number_of_siblings AS (
 
 
 --List ids and names of all instructors who has given more than a specific number of lessons during the current month
---Has to have First & Last Name
 CREATE VIEW lessons_per_instructor AS (
 	WITH lessons_per_instructor_subquery AS (
 		SELECT instructor_id,
