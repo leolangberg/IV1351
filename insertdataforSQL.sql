@@ -1,5 +1,7 @@
+--This is the script to insert data into the database, made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno
+
 --To answer the comment made on the previous assignment regarding the use of views in the insertionscript
---they views are just used as temporary tools but as nicely pointed out the views should therefore of course be deleted at the end. 
+--the views are just used as temporary tools but as nicely pointed out the views should therefore of course be deleted at the end. 
 
 --Begin insertion
 --random generated people
