@@ -13,7 +13,7 @@ CREATE TABLE person (
   contact_details_tlf VARCHAR(100) NOT NULL,
   personal_number INT UNIQUE NOT NULL,
   address VARCHAR(100) NOT NULL,
-  email VARCHAR(100) NOT NULL,    --email not implemented yet
+  email VARCHAR(100) NOT NULL,    
   PRIMARY KEY(person_id)
 );
       CREATE TABLE student (
