@@ -54,3 +54,19 @@ INSERT INTO historical_data(lesson_type, genres, instrument, lesson_price, stude
 SELECT lesson_type, genres, instrument, lesson_price, student_name, student_email FROM data;
 
 
+---##############################################################################--
+---##Below this line here does not attain to the actual historical database in task 3
+---##Code below is for task 4 to keep track fo historical rentals
+---##############################################################################--
+
+
+CREATE TABLE historical_rental (   --references if historical database?
+	historical_rental_id SERIAL NOT NULL,
+	rental_id INT NOT NULL,
+	monthly_cost NUMERIC(5,1) NOT NULL,
+	student_id INT NOT NULL,
+	time_rented DATE NOT NULL,
+	time_returned DATE NOT NULL DEFAULT CURRENT_DATE,
+	PRIMARY KEY(historical_rental_id)
+);
+
