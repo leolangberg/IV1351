@@ -132,7 +132,7 @@ BEGIN
     FROM instrument_rental
     WHERE student_id = NEW.student_id
   ) >= 2 THEN
-    RAISE NOTICE 'A student can rent at most 2 instruments at the same time';
+    RAISE EXCEPTION 'A student can rent at most 2 instruments at the same time';
     RETURN NULL;
   END IF;
   RETURN NEW;
@@ -153,7 +153,7 @@ BEGIN
   IF EXISTS (
     SELECT 1 FROM instrument_rental WHERE rental_id = NEW.rental_id
   ) THEN
-  RAISE NOTICE '%rental_id already rented', NEW.rental_id;
+  RAISE EXCEPTION 'rental_id % already rented', NEW.rental_id; 
   RETURN NULL;
 END IF;
 
