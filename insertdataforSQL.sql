@@ -346,17 +346,15 @@ SELECT student_id, lesson_id
 FROM student_lesson_join;
 
 
---Links random students to random physical instruments
-WITH combined_student_rental AS (
-  SELECT student_id, rental_id
-  FROM student
-  CROSS JOIN in_stock
-  ORDER BY RANDOM()
-  LIMIT 10
-)
-INSERT INTO instrument_rental (student_id, rental_id)
-SELECT student_id, rental_id
-FROM combined_student_rental;
+
+--Links students to physical instruments
+INSERT INTO instrument_rental(student_id, rental_id)
+VALUES
+  ((SELECT person_id FROM person WHERE name = 'Emma Eriksson'),  (SELECT rental_id FROM in_stock WHERE in_stock.brand = 'Steinway' AND in_stock.cost = 50)),
+  ((SELECT person_id FROM person WHERE name = 'Oscar Olsson'),   (SELECT rental_id FROM in_stock WHERE in_stock.brand = 'Ibanez' AND in_stock.cost = 30)),
+  ((SELECT person_id FROM person WHERE name = 'Mia Mårtensson'), (SELECT rental_id FROM in_stock WHERE in_stock.brand = 'Mapex')),
+  ((SELECT person_id FROM person WHERE name = 'Lucas Lundgren'), (SELECT rental_id FROM in_stock WHERE in_stock.brand = 'Stradivarius' AND in_stock.cost = 50));
+
 
 --extra ensambles that are not completely filled 
 INSERT INTO lesson(min_students, max_students, lesson_time, instructor_id)
