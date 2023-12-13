@@ -324,8 +324,8 @@ public class soundgoodDAO {
     }
 
     private void connectTosoundgoodDB() throws ClassNotFoundException, SQLException {
-        connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/testsem",
-                "postgres", "pianobus12");
+        connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres",
+                "postgres", "postgres");
         // connection =
         // DriverManager.getConnection("jdbc:mysql://localhost:3306/bankdb",
         // "mysql", "mysql");
