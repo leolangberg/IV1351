@@ -1,0 +1,13 @@
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/view/CmdLine.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/startup/Main.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/integration/soundgoodDBException.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/view/BlockingInterpreter.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/StudentException.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/Student.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/InstrumentException.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/view/Command.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/controller/Controller.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/InstrumentDTO.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/StudentDTO.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/integration/soundgoodDAO.java
+/Users/leolangberg/Desktop/jdbc-soundgood-master/src/main/java/se/kth/iv1351/soundgoodjdbc/model/Instrument.java
