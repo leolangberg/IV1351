@@ -7,4 +7,6 @@ Historical Database contains tables for extended historical data (outside of mai
 
 Insertionscript is made as to give example entry data.
 
+Queries contains a script for specific database queries performed.
+
 JDBC-Soundgood-master is a Java-DataBase-Connectivity (JDBC) linking the database to a smaller interface command program.
