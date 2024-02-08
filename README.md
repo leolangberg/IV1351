@@ -1,5 +1,6 @@
 This project is made for the course _Data Storage & Paradigms_ (IV1351) and was created together with Elias Gaghlasian & Ammar Alzeno.
 
+
 The DatabaseScript creates the main SQL database.
 
 Historical Database contains tables for extended historical data (outside of main database).
