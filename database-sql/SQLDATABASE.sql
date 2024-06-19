@@ -1,5 +1,12 @@
---this is the script to create the database, made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno
--- Database: iv1351
+--#######################################################################################
+--#                                                                                     #
+--#                               MAIN DATABASE                                         #
+--#                                                                                     #
+--#  This is the script to create the database.                                         #
+--#  Made by Leo Långberg, Elias Gaghlasian & Ammar Alzeno                              #
+--#  for the course Data storage & Paradigms IV1351.                                    #
+--#                                                                                     #
+--#######################################################################################
 
 CREATE TYPE genre         AS ENUM('Classical', 'Jazz', 'Pop', 'Rock');
 CREATE TYPE instrumentals AS ENUM('Piano', 'Guitar', 'Bass', 'Drums', 'Violin', 'Saxophone', 'Trumpet', 'Flute');
@@ -118,9 +125,18 @@ CREATE TABLE instrument_rental (
 
 
 --#######################################################################################
---#######################################################################################
---TRIGGERS--
---#######################################################################################
+--#                                                                                     #
+--#                                   TRIGGERS                                          #
+--#                                                                                     #
+--#  Hardwired Constraints placed directly in the database.                             #
+--#   * Max 2 rented instruments.                                                       #
+--#   * Each rental_id can only correspond to 1 student.                                #
+--#   * If lessontype 'individual' then set min/max and lesson_type.                    #
+--#   * Lesson_type for ensamble.                                                       #
+--#   * student_count updated from student_lesson_cross_reference.                      #
+--#   * Symmetrical Sibling inserts, tertiary (works for multiple siblings).            #
+--#   * individual makes use of the isntructor_time_available.                          #
+--#                                                                                     #
 --#######################################################################################
 
 -- max 2 rented instruments (TRIGGER)
