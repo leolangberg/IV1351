@@ -13,5 +13,5 @@
   </h6>
   <h6>The interface command program is a Java program constructed using Maven Build Tools that acts as an API for the database and utilizes the prewritten SQL queries along with insert and update operations of data.</h6>
 <h4>Data Storage & Paradigms IV1351</h4>
-  <h6>This project is made for the course <i> Data Storage & Paradigms IV1351 </i> (held by prof. Carbone & prof. Lindbäck) and was created together with Elias Gaghlasian & Ammar Alzeno.</h6>
+  <h6>This project was made for the course <i> Data Storage & Paradigms IV1351 </i> (held by prof. Carbone & prof. Lindbäck) and was created together with Elias Gaghlasian & Ammar Alzeno.</h6>
 </div>
