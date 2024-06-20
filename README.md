@@ -2,7 +2,7 @@
   <h1>SQL Database <img src="https://github.com/leolangberg/IV1351/assets/152855963/9f663d68-8516-4a28-a898-4bb1255cb738" alt="PostgreSQLicon" width="30" height="30" /></h1>
   <h3>Soundgood Music School</h3>
   <h6>Database designed for the Soundgood Music School to store and keep track of scheduled classes, instruments and students. 
-    <br> Combined with a JDBC (Java-Database Connectivity) linking the database to a smaller command interface program.
+    <br> Combined with a JDBC (Java-Database Connectivity) linking the database to a smaller interface command program.
   </h6>
   <h6>
     <ul>
